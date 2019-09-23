@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ReadJsonController {
 
-	final Logger LOGGER = LoggerFactory.getLogger(WriteJsonController.class);
+	final Logger LOGGER = LoggerFactory.getLogger(ReadJsonController.class);
 
 	@RequestMapping(value = "/read", method = RequestMethod.GET)
 	public String readJson() {
